@@ -20,7 +20,7 @@ class HomeActivity: BaseActivity() {
     @Inject
     internal lateinit var dialogBuilder: DialogBuilder
 
-    private lateinit var addItem1: ImageView
+    private lateinit var addItem2: ImageView
 
     companion object{
         fun startHomeActivity(context: Context) {
@@ -31,8 +31,8 @@ class HomeActivity: BaseActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         AndroidInjection.inject(this)
         super.onCreate(savedInstanceState)
-        addItem = getToolBar().findViewById(R.id.img_add_item)
-        addItem.setOnClickListener { showAddItemView(this) }
+        addItem2 = getToolBar().findViewById(R.id.img_add_item)
+        addItem2.setOnClickListener { showAddItemView(this) }
     }
 
     override fun getResourceLayoutId(): Int {
