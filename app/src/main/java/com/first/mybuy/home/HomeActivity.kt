@@ -15,6 +15,8 @@ import javax.inject.Inject
 
 class HomeActivity: BaseActivity() {
 
+    
+
     @Inject
     internal lateinit var dialogBuilder: DialogBuilder
 
