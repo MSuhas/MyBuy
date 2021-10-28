@@ -18,7 +18,7 @@ class HomeActivity: BaseActivity() {
     @Inject
     internal lateinit var dialogBuilder: DialogBuilder
 
-    private lateinit var addItem: ImageView
+    private lateinit var addItem1: ImageView
 
     companion object{
         fun startHomeActivity(context: Context) {
