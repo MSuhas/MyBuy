@@ -5,7 +5,7 @@ import com.first.mybuy.R
 import com.first.mybuy.base.BaseActivity
 import kotlinx.coroutines.*
 
-class SplashActivity : BaseActivity() {
+class SplashActivityMain : BaseActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -28,7 +28,7 @@ class SplashActivity : BaseActivity() {
         GlobalScope.launch(Dispatchers.Default, CoroutineStart.DEFAULT) {
             delay(5000)
             finish()
-            LoginActivity.startLoginActivity(this@SplashActivity)
+            LoginActivity.startLoginActivity(this@SplashActivityMain)
         }
     }
 }

@@ -45,7 +45,7 @@
             android:theme="@style/AppTheme">
         </activity>
         <activity
-            android:name=".login.SplashActivity"
+            android:name=".login.SplashActivityMain"
             android:theme="@style/AppTheme.NoActionBar">
         </activity>
 
